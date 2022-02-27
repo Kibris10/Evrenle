@@ -1,18 +1,18 @@
 export const GAME_TITLE = process.env.REACT_APP_GAME_NAME!
 
-export const WIN_MESSAGES = ['Yeahooo', 'EzPz', 'You got it, nice!']
+export const WIN_MESSAGES = ['HOLEEEE', 'Ez', 'SIUUUUUUUUUUU']
 export const GAME_COPIED_MESSAGE = 'Game copied to clipboard'
 export const ABOUT_GAME_MESSAGE = 'About this game'
 export const NOT_ENOUGH_LETTERS_MESSAGE = 'Not enough letters'
-export const WORD_NOT_FOUND_MESSAGE = 'Ekrem says that word is not on our list'
+export const WORD_NOT_FOUND_MESSAGE = 'Evren says that word is not on our list'
 export const HARD_MODE_ALERT_MESSAGE =
-  'Ekrem Says Hard Mode can only be enabled at the start!'
+  'Evren Says Hard Mode can only be enabled at the start!'
 export const CORRECT_WORD_MESSAGE = (solution: string) =>
-  `Ekrem says the word was ${solution}`
+  `Evren says the word was ${solution}`
 export const WRONG_SPOT_MESSAGE = (guess: string, position: number) =>
-  `Ekrem says you must use ${guess} in position ${position}`
+  `Evren says you must use ${guess} in position ${position}`
 export const NOT_CONTAINED_MESSAGE = (letter: string) =>
-  `Ekrem says the guess must contain ${letter}`
+  `Evren says the guess must contain ${letter}`
 export const ENTER_TEXT = 'Enter'
 export const DELETE_TEXT = 'Delete'
 export const STATISTICS_TITLE = 'Statistics'
