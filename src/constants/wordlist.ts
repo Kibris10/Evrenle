@@ -53,6 +53,8 @@ export const WORDS = [
   'rupee',
   'video',
   'bogey',
+  'tests',
+  'tests',
   'evren',
   'plank',
   'james',
